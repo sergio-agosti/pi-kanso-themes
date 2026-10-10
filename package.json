@@ -1,0 +1,33 @@
+{
+  "name": "pi-kanso-themes",
+  "version": "1.0.0",
+  "description": "Kanso Ink, Zen, Mist and Pearl themes for the pi coding agent, ported from the kanso.nvim palette.",
+  "license": "MIT",
+  "private": false,
+  "author": "Sergio Agosti",
+  "keywords": [
+    "pi-package",
+    "pi-theme",
+    "pi",
+    "themes",
+    "kanso",
+    "kanagawa",
+    "dark-theme",
+    "light-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergio-agosti/pi-kanso-themes.git"
+  },
+  "pi": {
+    "themes": [
+      "./themes"
+    ]
+  },
+  "files": [
+    "themes",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ]
+}
