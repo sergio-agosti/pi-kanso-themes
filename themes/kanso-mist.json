@@ -68,11 +68,12 @@
     "syntaxOperator": "#909398",
     "syntaxPunctuation": "#909398",
     "thinkingOff": "line",
-    "thinkingMinimal": "line",
-    "thinkingLow": "line",
-    "thinkingMedium": "line",
-    "thinkingHigh": "line",
-    "thinkingXhigh": "accent",
+    "thinkingMinimal": "cyan",
+    "thinkingLow": "blue",
+    "thinkingMedium": "accent",
+    "thinkingHigh": "yellow",
+    "thinkingXhigh": "orange",
+    "thinkingMax": "red_soft",
     "bashMode": "line"
   },
   "export": {
