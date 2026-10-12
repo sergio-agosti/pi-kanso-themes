@@ -28,7 +28,7 @@
     "borderAccent": "line",
     "borderMuted": "line",
     "success": "green",
-    "error": "red",
+    "error": "red_soft",
     "warning": "warning",
     "muted": "fg_muted",
     "dim": "comment",

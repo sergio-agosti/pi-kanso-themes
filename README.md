@@ -6,10 +6,15 @@ The four [Kanso](https://github.com/webhooked/kanso.nvim) themes for the
 This is a themes-only extraction of
 [`@haispeed/pi-deck`](https://github.com/hisea/pi-deck). The upstream package
 bundles a two-line status-line extension; that footer is deliberately **not**
-included here. The theme JSON files are unmodified apart from the thinking
-level colours: upstream gave minimal through high the border grey, darker than
-`dim`, so the level was invisible. They now ramp cool to warm — cyan, blue,
-accent, yellow, orange, red — with `off` left at the border grey.
+included here. The theme JSON files are unmodified apart from two changes:
+
+- **Thinking level colours.** Upstream gave minimal through high the border
+  grey, darker than `dim`, so the level was invisible. They now ramp cool to
+  warm — cyan, blue, accent, yellow, orange, red — with `off` left at the
+  border grey.
+- **`error` in the dark themes.** Upstream used `red` (`#C34043`), 3.0–3.8:1
+  against the background, below the 4.5:1 legibility floor for small text.
+  Ink, Zen and Mist now use their own `red_soft` (`#c4746e`), 4.4–5.6:1.
 
 | Theme         | Appearance | Background | Foreground | Accent    |
 | ------------- | ---------- | ---------- | ---------- | --------- |
